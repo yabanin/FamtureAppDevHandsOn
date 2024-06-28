@@ -14,6 +14,8 @@
 		353186432C2C7B5C00549524 /* FamtureHandsOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353186422C2C7B5C00549524 /* FamtureHandsOnTests.swift */; };
 		3531864D2C2C7B5C00549524 /* FamtureHandsOnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3531864C2C2C7B5C00549524 /* FamtureHandsOnUITests.swift */; };
 		3531864F2C2C7B5C00549524 /* FamtureHandsOnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3531864E2C2C7B5C00549524 /* FamtureHandsOnUITestsLaunchTests.swift */; };
+		354383F72C2F31300031D124 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354383F62C2F31300031D124 /* Course.swift */; };
+		354383F92C2F33EB0031D124 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354383F82C2F33EB0031D124 /* Material.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		353186482C2C7B5C00549524 /* FamtureHandsOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamtureHandsOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3531864C2C2C7B5C00549524 /* FamtureHandsOnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamtureHandsOnUITests.swift; sourceTree = "<group>"; };
 		3531864E2C2C7B5C00549524 /* FamtureHandsOnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamtureHandsOnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		354383F62C2F31300031D124 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		354383F82C2F33EB0031D124 /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		353186302C2C7B5A00549524 /* FamtureHandsOn */ = {
 			isa = PBXGroup;
 			children = (
+				354383F52C2F310E0031D124 /* Models */,
 				353186312C2C7B5A00549524 /* FamtureHandsOnApp.swift */,
 				353186332C2C7B5A00549524 /* ContentView.swift */,
 				353186352C2C7B5C00549524 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				3531864E2C2C7B5C00549524 /* FamtureHandsOnUITestsLaunchTests.swift */,
 			);
 			path = FamtureHandsOnUITests;
+			sourceTree = "<group>";
+		};
+		354383F52C2F310E0031D124 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				354383F62C2F31300031D124 /* Course.swift */,
+				354383F82C2F33EB0031D124 /* Material.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354383F92C2F33EB0031D124 /* Material.swift in Sources */,
+				354383F72C2F31300031D124 /* Course.swift in Sources */,
 				353186342C2C7B5A00549524 /* ContentView.swift in Sources */,
 				353186322C2C7B5A00549524 /* FamtureHandsOnApp.swift in Sources */,
 			);
