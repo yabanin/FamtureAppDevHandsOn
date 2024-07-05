@@ -1,4 +1,4 @@
-# FamtureAppDevHandsOn
+# AppDevHandsOn
 ファムチャの開発練習用レポジトリ
 
 ## Backend
